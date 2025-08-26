@@ -1,0 +1,3 @@
+- name: Placeholder for nginx_exporter
+  debug:
+    msg: "nginx_exporter role running"

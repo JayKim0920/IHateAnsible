@@ -1,0 +1,3 @@
+- name: Placeholder for app_deploy
+  debug:
+    msg: "app_deploy role running"

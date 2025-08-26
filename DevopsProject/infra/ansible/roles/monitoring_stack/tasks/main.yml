@@ -1,0 +1,3 @@
+- name: Placeholder for monitoring_stack
+  debug:
+    msg: "monitoring_stack role running"

@@ -1,0 +1,3 @@
+- name: Placeholder for jenkins
+  debug:
+    msg: "jenkins role running"

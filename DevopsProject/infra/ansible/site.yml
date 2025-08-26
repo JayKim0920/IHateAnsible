@@ -1,0 +1,21 @@
+- hosts: staging
+  roles:
+    - docker
+    - jenkins
+    - nginx
+    - node_exporter
+    - cadvisor
+    - nginx_exporter
+    - app_deploy
+    - monitoring_stack
+
+- hosts: production
+  roles:
+    - docker
+    - jenkins
+    - nginx
+    - node_exporter
+    - cadvisor
+    - nginx_exporter
+    - app_deploy
+    - monitoring_stack

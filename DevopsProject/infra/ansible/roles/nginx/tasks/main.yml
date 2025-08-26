@@ -1,0 +1,3 @@
+- name: Placeholder for nginx
+  debug:
+    msg: "nginx role running"

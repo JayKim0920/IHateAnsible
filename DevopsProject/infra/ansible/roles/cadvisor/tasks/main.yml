@@ -1,0 +1,3 @@
+- name: Placeholder for cadvisor
+  debug:
+    msg: "cadvisor role running"
